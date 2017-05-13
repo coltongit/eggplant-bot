@@ -1,0 +1,12 @@
+{
+  "name": "eggplant-bot",
+  "version": "1.0.0",
+  "description": "Got eggplants?",
+  "main": "bot.js",
+  "author": "@Official_Laggin",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "hydrabolt/discord.js",
+    "moment": "moment/moment"
+  }
+}
