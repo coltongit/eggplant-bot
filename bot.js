@@ -6,7 +6,6 @@ const client = new Discord.Client();
 
 client.on("ready", () => {
   console.log(`Eggplant Bot connected at ${moment().format("h:mm a")}.`);
-  client.user.setGame("with Eggplants");
 });
 
 client.on("disconnect", () => {
@@ -20,7 +19,7 @@ client.on("message", (message) => {
 });
 
 client.on("messageUpdate", (oldMessage, newMessage) => {
-  if (newMessage.content.includes("🍆")) {
+  if (!oldMessage.content.includes("🍆") && newMessage.content.includes("🍆")) {
     newMessage.react("🍆").then( () => newMessage.react("💦") )
   }
 });
