@@ -6,7 +6,7 @@
   "author": "@Official_Laggin",
   "license": "MIT",
   "dependencies": {
-    "discord.js": "hydrabolt/discord.js",
-    "moment": "moment/moment"
+    "discord.js": "^11.1.0",
+    "moment": "^2.18.1"
   }
 }
