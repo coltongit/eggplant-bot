@@ -1,4 +1,7 @@
 # eggplant-bot
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/coltongit/eggplant-bot.svg)](https://greenkeeper.io/)
+
 To use the bot (Assuming you have node and npm installed):
 
 1. Run ```npm install``` to install required node plugins.
